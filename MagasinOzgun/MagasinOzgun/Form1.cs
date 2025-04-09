@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,48 +22,57 @@ namespace MagasinOzgun
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
-
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Panel panel = new Panel();
-            panel.Location = new Point(10, 110);
-            panel.Size = new Size(230, 132);
+            AffichageUneChaussure("Nike Air Max", "nike");
+            AffichageUneChaussure("Nike Air Max", "panier");
 
-            //PictureBox pictureBox = new PictureBox();
-            //pictureBox.Location = new Point(15, 15);
-            pbImage.Image = Properties.Resources.nike;//Image.FromFile(@"Resources\W+NIKE+AIR+MAX+1.png");
-            //pictureBox.Size = new Size(150, 90);
-            //pictureBox
-            //panel.Controls.Add(pictureBox);
-
-
-
-            Label label = new Label();
-            label.Text = "Nike Air Max";
-            label.Location = new Point(10, 110);
-            label.Size = new Size(150, 20);
-            panel.Controls.Add(label);
-            
-
-            
-            this.Controls.Add(panel);
-                 
         }
-
 
         // Button pour aller au panier
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
             Panier panier = new Panier();
-            panier.ShowDialog();    
+            panier.ShowDialog();
+        }
+
+        private void AffichageUneChaussure(string nomChassures, string photoChaussures)
+        {
+            Panel panel = new Panel();
+            {
+                panel.Size = new Size(230, 150);
+                panel.BackColor = Color.DarkOrange;
+            }
+
+            PictureBox pictureBox = new PictureBox();
+            {
+                var image = (System.Drawing.Image)Properties.Resources.ResourceManager.GetObject(photoChaussures);
+                pictureBox.Image = image;
+                pictureBox.Size = new Size(150, 90);
+                pictureBox.Location = new Point(15, 15);
+                pictureBox.SizeMode = PictureBoxSizeMode.Zoom;
+                panel.Controls.Add(pictureBox);
+            }
+
+            Label label = new Label();
+            {
+                label.Text = nomChassures;
+                label.Location = new Point(40, 110);
+                label.Size = new Size(150, 20);
+                label.TextAlign = ContentAlignment.MiddleCenter;
+                panel.Controls.Add(label);
+            }
+
+            flpChaussures.Controls.Add(panel);
+            flpChaussures.FlowDirection = FlowDirection.LeftToRight;
+            flpChaussures.WrapContents = true;
         }
     }
 }
