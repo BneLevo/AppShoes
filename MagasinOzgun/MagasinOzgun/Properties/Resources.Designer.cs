@@ -73,16 +73,6 @@ namespace MagasinOzgun.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap nike {
-            get {
-                object obj = ResourceManager.GetObject("nike", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap panier {
             get {
                 object obj = ResourceManager.GetObject("panier", resourceCulture);

@@ -51,19 +51,17 @@
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(1, 1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1184, 123);
+            this.panel1.Size = new System.Drawing.Size(888, 100);
             this.panel1.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(712, 49);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(534, 40);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(129, 31);
+            this.label2.Size = new System.Drawing.Size(101, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "Important";
             // 
@@ -71,29 +69,26 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(879, 49);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(659, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 31);
+            this.label1.Size = new System.Drawing.Size(49, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "Site";
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(992, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(744, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(13, 123);
+            this.panel2.Size = new System.Drawing.Size(10, 100);
             this.panel2.TabIndex = 2;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::MagasinOzgun.Properties.Resources.panier;
-            this.pictureBox2.Location = new System.Drawing.Point(1055, 30);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(791, 24);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(87, 64);
+            this.pictureBox2.Size = new System.Drawing.Size(65, 52);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -102,10 +97,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::MagasinOzgun.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(39, 14);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(29, 11);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(316, 91);
+            this.pictureBox1.Size = new System.Drawing.Size(237, 74);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -114,10 +108,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(467, 167);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(350, 136);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(232, 46);
+            this.label3.Size = new System.Drawing.Size(188, 37);
             this.label3.TabIndex = 4;
             this.label3.Text = "Chaussures";
             // 
@@ -125,32 +118,32 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(1021, 660);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(766, 536);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(140, 25);
+            this.label5.Size = new System.Drawing.Size(111, 20);
             this.label5.TabIndex = 7;
             this.label5.Text = "© 2025 Ozgun";
             // 
             // flpChaussures
             // 
-            this.flpChaussures.Location = new System.Drawing.Point(76, 239);
+            this.flpChaussures.Location = new System.Drawing.Point(57, 194);
+            this.flpChaussures.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flpChaussures.Name = "flpChaussures";
-            this.flpChaussures.Size = new System.Drawing.Size(1035, 400);
+            this.flpChaussures.Size = new System.Drawing.Size(776, 325);
             this.flpChaussures.TabIndex = 8;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1183, 686);
+            this.ClientSize = new System.Drawing.Size(889, 564);
             this.Controls.Add(this.flpChaussures);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.MaximumSize = new System.Drawing.Size(1201, 733);
-            this.MinimumSize = new System.Drawing.Size(1201, 733);
+            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.MaximumSize = new System.Drawing.Size(905, 603);
+            this.MinimumSize = new System.Drawing.Size(905, 603);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
