@@ -35,13 +35,15 @@ namespace MagasinOzgun
         {
             this.Hide();
             Panier panier = new Panier();
-            panier.ShowDialog();
+            panier.Show();
         }
 
 
         // Affichage des chaussures dans le flowLoyautPanel
         private void AffichageUneChaussure(string nomChaussures, string photoChaussures)
         {
+            nom = nomChaussures;
+            photo = photoChaussures;
             // Les noms des chaussures
             Panel panel = new Panel
             {
@@ -59,6 +61,7 @@ namespace MagasinOzgun
             };
             string imagePath = Path.Combine(Application.StartupPath, photoChaussures.Replace("./", "").Replace("/", "\\"));
             pictureBox.Image = Image.FromFile(imagePath);
+            //MessageBox.Show(imagePath);
 
             // Les noms des chaussures
             Label label = new Label
@@ -75,6 +78,18 @@ namespace MagasinOzgun
             flpChaussures.Controls.Add(panel);
             flpChaussures.FlowDirection = FlowDirection.LeftToRight;
             flpChaussures.WrapContents = true;
+
+            pictureBox.MouseClick += new MouseEventHandler(pictureBox1_Click);
+        }
+
+        string nom;
+        string photo;
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 form2 = new Form2(nom, photo);
+            form2.Show();
         }
     }
 }
