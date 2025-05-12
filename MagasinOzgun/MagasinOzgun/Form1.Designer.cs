@@ -32,11 +32,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.flpChaussures = new System.Windows.Forms.FlowLayoutPanel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -83,6 +83,27 @@
             this.panel2.Size = new System.Drawing.Size(10, 100);
             this.panel2.TabIndex = 2;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::MagasinOzgun.Properties.Resources.panier;
+            this.pictureBox2.Location = new System.Drawing.Point(791, 24);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(65, 52);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::MagasinOzgun.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(29, 11);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(237, 74);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -111,27 +132,6 @@
             this.flpChaussures.Name = "flpChaussures";
             this.flpChaussures.Size = new System.Drawing.Size(776, 325);
             this.flpChaussures.TabIndex = 8;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::MagasinOzgun.Properties.Resources.panier;
-            this.pictureBox2.Location = new System.Drawing.Point(791, 24);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(65, 52);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::MagasinOzgun.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(29, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(237, 74);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 

@@ -9,8 +9,17 @@ namespace MagasinOzgun
 {
     public class Chaussures
     {
-            public string chaussures { get; set; }
-            public string image { get; set; }
-            public double prix { get; set; }
+        public int Id { get; set; }
+        public string chaussures { get; set; }
+        public string image { get; set; }
+        public double prix { get; set; }
+
+        public Chaussures(int ID, string Chassures, string image, double prix) 
+        { 
+            this.Id = ID;
+            this.chaussures = Chassures;
+            this.image = image;
+            this.prix = prix;
+        }
     }
 }

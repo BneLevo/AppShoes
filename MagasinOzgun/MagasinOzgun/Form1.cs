@@ -19,6 +19,10 @@ namespace MagasinOzgun
             InitializeComponent();
         }
 
+        string nom;
+        string photo;
+        double prix;
+
         private void Form1_Load(object sender, EventArgs e)
         {
             string jsonPath = @"C:\Users\LEVENT.OZGN\Documents\GitHub\ApplicationMagasin\MagasinOzgun\MagasinOzgun\chaussures.json";
@@ -27,7 +31,7 @@ namespace MagasinOzgun
 
             foreach (var chaussure in chaussuresList)
             {
-                AffichageUneChaussure(chaussure.chaussures, chaussure.image);
+                AffichageUneChaussure(chaussure.chaussures, chaussure.image, chaussure.prix);
             }
         }
 
@@ -40,14 +44,15 @@ namespace MagasinOzgun
 
 
         // Affichage des chaussures dans le flowLoyautPanel
-        private void AffichageUneChaussure(string nomChaussures, string photoChaussures)
+        private void AffichageUneChaussure(string nomChaussures, string photoChaussures, double prixChaussures)
         {
             nom = nomChaussures;
             photo = photoChaussures;
+            prix = prixChaussures;
             // Les noms des chaussures
             Panel panel = new Panel
             {
-                Size = new Size(230, 150),
+                Size = new Size(230, 200),
                 BackColor = Color.DarkOrange,
                 //Anchor = AnchorStyles.None
             };
@@ -56,7 +61,7 @@ namespace MagasinOzgun
             PictureBox pictureBox = new PictureBox
             {
                 Size = new Size(150, 90),
-                Location = new Point(15, 15),
+                Location = new Point(40, 15),
                 SizeMode = PictureBoxSizeMode.Zoom
             };
             string imagePath = Path.Combine(Application.StartupPath, photoChaussures.Replace("./", "").Replace("/", "\\"));
@@ -64,16 +69,38 @@ namespace MagasinOzgun
             //MessageBox.Show(imagePath);
 
             // Les noms des chaussures
-            Label label = new Label
+            Label labelNomChaussures = new Label
             {
                 Text = nomChaussures,
-                Location = new Point(40, 110),
+                Location = new Point(50, 100),
                 Size = new Size(150, 20),
                 TextAlign = ContentAlignment.MiddleCenter
             };
 
+            // Les prix des chaussures
+            Label labelPrixChaussures = new Label
+            {
+                Text = prixChaussures.ToString() + ".-",
+                Location = new Point(50, 125),
+                Size = new Size(150, 20),
+                TextAlign = ContentAlignment.MiddleCenter
+            };
+
+            Button buttonAddToBag = new Button
+            {
+                Text = "Add To Bag",
+                Location = new Point(50, 160),
+                Size = new Size(150, 30),
+                TextAlign = ContentAlignment.MiddleCenter,
+                BackColor = Color.White,
+                ForeColor = Color.Orange
+            };
+
+
             panel.Controls.Add(pictureBox);
-            panel.Controls.Add(label);
+            panel.Controls.Add(labelNomChaussures);
+            panel.Controls.Add(labelPrixChaussures);
+            panel.Controls.Add(buttonAddToBag);
 
             flpChaussures.Controls.Add(panel);
             flpChaussures.FlowDirection = FlowDirection.LeftToRight;
@@ -82,13 +109,12 @@ namespace MagasinOzgun
             pictureBox.MouseClick += new MouseEventHandler(pictureBox1_Click);
         }
 
-        string nom;
-        string photo;
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 form2 = new Form2(nom, photo);
+            Form2 form2 = new Form2(nom, photo, prix);
             form2.Show();
         }
     }
