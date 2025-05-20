@@ -15,6 +15,7 @@ namespace MagasinOzgun
         public Panier()
         {
             InitializeComponent();
+            label6.Text = string.Join(", ", BagManager.Bag);
         }
     }
 }

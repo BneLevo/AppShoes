@@ -17,49 +17,49 @@
     "id": 3,
     "Chaussures": "Nike Air Max",
     "image": "./img/imgShoes/NikeAirForce1_07.png",
-    "prix": 170,
+    "prix": 130,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   },
   {
     "id": 4,
     "Chaussures": "Nike Air Max",
     "image": "./img/imgShoes/NikeAirForce1_07.png",
-    "prix": 170,
+    "prix": 120,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   },
   {
     "id": 5,
     "Chaussures": "Nike Air Max",
     "image": "./img/imgShoes/NikeAirForce1_07.png",
-    "prix": 170,
+    "prix": 110,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   },
   {
     "id": 6,
     "Chaussures": "Nike Air Max",
     "image": "./img/imgShoes/NikeAirForce1_07.png",
-    "prix": 170,
+    "prix": 100,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   },
   {
     "id": 7,
     "Chaussures": "Nike Air Max",
     "image": "./img/imgShoes/NikeAirForce1_07.png",
-    "prix": 170,
+    "prix": 190,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   },
   {
     "id": 8,
     "Chaussures": "Nike Air Max",
     "image": "./img/imgShoes/NikeAirForce1_07.png",
-    "prix": 170,
+    "prix": 1710,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   },
   {
     "id": 9,
     "Chaussures": "Nike Air Max",
     "image": "./img/imgShoes/NikeAirForce1_07.png",
-    "prix": 170,
+    "prix": 1750,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   }
 ]

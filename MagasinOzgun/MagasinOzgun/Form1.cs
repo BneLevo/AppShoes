@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,14 +15,11 @@ namespace MagasinOzgun
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
         }
-
-        string nom;
-        string photo;
-        double prix;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -31,56 +29,41 @@ namespace MagasinOzgun
 
             foreach (var chaussure in chaussuresList)
             {
-                AffichageUneChaussure(chaussure.chaussures, chaussure.image, chaussure.prix);
+                AffichageUneChaussure(chaussure);
             }
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Panier panier = new Panier();
-            panier.Show();
         }
 
 
         // Affichage des chaussures dans le flowLoyautPanel
-        private void AffichageUneChaussure(string nomChaussures, string photoChaussures, double prixChaussures)
+        private void AffichageUneChaussure(Chaussures chaussure)
         {
-            nom = nomChaussures;
-            photo = photoChaussures;
-            prix = prixChaussures;
-            // Les noms des chaussures
             Panel panel = new Panel
             {
                 Size = new Size(230, 200),
                 BackColor = Color.DarkOrange,
-                //Anchor = AnchorStyles.None
             };
 
-            // Les images des chaussures
             PictureBox pictureBox = new PictureBox
             {
                 Size = new Size(150, 90),
                 Location = new Point(40, 15),
                 SizeMode = PictureBoxSizeMode.Zoom
             };
-            string imagePath = Path.Combine(Application.StartupPath, photoChaussures.Replace("./", "").Replace("/", "\\"));
-            pictureBox.Image = Image.FromFile(imagePath);
-            //MessageBox.Show(imagePath);
 
-            // Les noms des chaussures
+            string imagePath = Path.Combine(Application.StartupPath, chaussure.image.Replace("./", "").Replace("/", "\\"));
+            pictureBox.Image = Image.FromFile(imagePath);
+
             Label labelNomChaussures = new Label
             {
-                Text = nomChaussures,
+                Text = chaussure.chaussures,
                 Location = new Point(50, 100),
                 Size = new Size(150, 20),
                 TextAlign = ContentAlignment.MiddleCenter
             };
 
-            // Les prix des chaussures
             Label labelPrixChaussures = new Label
             {
-                Text = prixChaussures.ToString() + ".-",
+                Text = chaussure.prix.ToString() + ".-",
                 Location = new Point(50, 125),
                 Size = new Size(150, 20),
                 TextAlign = ContentAlignment.MiddleCenter
@@ -96,6 +79,11 @@ namespace MagasinOzgun
                 ForeColor = Color.Orange
             };
 
+            buttonAddToBag.MouseClick += (s, e) =>
+            {
+                BagManager.AddToBag(chaussure.Id);
+                MessageBox.Show("Ajouté au panier");
+            };
 
             panel.Controls.Add(pictureBox);
             panel.Controls.Add(labelNomChaussures);
@@ -106,16 +94,19 @@ namespace MagasinOzgun
             flpChaussures.FlowDirection = FlowDirection.LeftToRight;
             flpChaussures.WrapContents = true;
 
-            pictureBox.MouseClick += new MouseEventHandler(pictureBox1_Click);
+            pictureBox.MouseClick += (s, e) =>
+            {
+                this.Hide();
+                Form2 form2 = new Form2(chaussure.Id, chaussure.chaussures, chaussure.image, chaussure.prix);
+                form2.Show();
+            };
         }
 
-
-
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 form2 = new Form2(nom, photo, prix);
-            form2.Show();
+            Panier panier = new Panier();
+            panier.Show();
         }
     }
 }
