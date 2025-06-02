@@ -36,21 +36,12 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.pbImage = new System.Windows.Forms.PictureBox();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.flpBag = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbImage)).BeginInit();
             this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -104,6 +95,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -114,6 +106,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label4
             // 
@@ -135,64 +128,6 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Panier";
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.pbImage);
-            this.panel3.Controls.Add(this.panel10);
-            this.panel3.Controls.Add(this.panel9);
-            this.panel3.Controls.Add(this.panel8);
-            this.panel3.Controls.Add(this.panel7);
-            this.panel3.Controls.Add(this.panel6);
-            this.panel3.Location = new System.Drawing.Point(29, 192);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(606, 313);
-            this.panel3.TabIndex = 7;
-            // 
-            // pbImage
-            // 
-            this.pbImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbImage.Location = new System.Drawing.Point(41, 21);
-            this.pbImage.Name = "pbImage";
-            this.pbImage.Size = new System.Drawing.Size(173, 106);
-            this.pbImage.TabIndex = 13;
-            this.pbImage.TabStop = false;
-            // 
-            // panel10
-            // 
-            this.panel10.Location = new System.Drawing.Point(475, 190);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(111, 32);
-            this.panel10.TabIndex = 12;
-            // 
-            // panel9
-            // 
-            this.panel9.Location = new System.Drawing.Point(475, 40);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(111, 32);
-            this.panel9.TabIndex = 11;
-            // 
-            // panel8
-            // 
-            this.panel8.Location = new System.Drawing.Point(238, 179);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(111, 43);
-            this.panel8.TabIndex = 11;
-            // 
-            // panel7
-            // 
-            this.panel7.Location = new System.Drawing.Point(238, 40);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(111, 43);
-            this.panel7.TabIndex = 10;
-            // 
-            // panel6
-            // 
-            this.panel6.Location = new System.Drawing.Point(41, 154);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(173, 92);
-            this.panel6.TabIndex = 9;
-            // 
             // panel5
             // 
             this.panel5.Controls.Add(this.label5);
@@ -211,36 +146,32 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Total :";
             // 
-            // label6
+            // flpBag
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(510, 113);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "label6";
+            this.flpBag.AutoScroll = true;
+            this.flpBag.Location = new System.Drawing.Point(64, 189);
+            this.flpBag.Name = "flpBag";
+            this.flpBag.Size = new System.Drawing.Size(571, 316);
+            this.flpBag.TabIndex = 10;
             // 
             // Panier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(889, 565);
+            this.ClientSize = new System.Drawing.Size(889, 564);
+            this.Controls.Add(this.flpBag);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
-            this.MaximumSize = new System.Drawing.Size(905, 604);
-            this.MinimumSize = new System.Drawing.Size(905, 604);
+            this.MaximumSize = new System.Drawing.Size(905, 603);
+            this.MinimumSize = new System.Drawing.Size(905, 603);
             this.Name = "Panier";
             this.Text = "Panier";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbImage)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.ResumeLayout(false);
@@ -258,15 +189,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pbImage;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.FlowLayoutPanel flpBag;
     }
 }

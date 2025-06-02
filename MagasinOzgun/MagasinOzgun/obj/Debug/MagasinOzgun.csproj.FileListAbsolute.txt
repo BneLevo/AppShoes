@@ -76,3 +76,6 @@ C:\Users\LEVENT.OZGN\Documents\GitHub\ApplicationMagasin\MagasinOzgun\MagasinOzg
 C:\Users\LEVENT.OZGN\Documents\GitHub\ApplicationMagasin\MagasinOzgun\MagasinOzgun\bin\Debug\Newtonsoft.Json.dll
 C:\Users\LEVENT.OZGN\Documents\GitHub\ApplicationMagasin\MagasinOzgun\MagasinOzgun\bin\Debug\Newtonsoft.Json.xml
 C:\Users\LEVENT.OZGN\Documents\GitHub\ApplicationMagasin\MagasinOzgun\MagasinOzgun\obj\Debug\MagasinOzgun.Form2.resources
+C:\Users\LEVENT.OZGN\Documents\GitHub\ApplicationMagasin\MagasinOzgun\MagasinOzgun\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\LEVENT.OZGN\Documents\GitHub\ApplicationMagasin\MagasinOzgun\MagasinOzgun\bin\Debug\Newtonsoft.Json.Bson.pdb
+C:\Users\LEVENT.OZGN\Documents\GitHub\ApplicationMagasin\MagasinOzgun\MagasinOzgun\bin\Debug\Newtonsoft.Json.Bson.xml

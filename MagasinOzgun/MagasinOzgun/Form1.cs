@@ -19,20 +19,12 @@ namespace MagasinOzgun
         public Form1()
         {
             InitializeComponent();
-        }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            string jsonPath = @"C:\Users\LEVENT.OZGN\Documents\GitHub\ApplicationMagasin\MagasinOzgun\MagasinOzgun\chaussures.json";
-            string json = File.ReadAllText(jsonPath);
-            List<Chaussures> chaussuresList = JsonConvert.DeserializeObject<List<Chaussures>>(json);
-
-            foreach (var chaussure in chaussuresList)
+            foreach (var chaussure in Chaussures.ChaussuresList)
             {
                 AffichageUneChaussure(chaussure);
             }
         }
-
 
         // Affichage des chaussures dans le flowLoyautPanel
         private void AffichageUneChaussure(Chaussures chaussure)
@@ -50,8 +42,15 @@ namespace MagasinOzgun
                 SizeMode = PictureBoxSizeMode.Zoom
             };
 
-            string imagePath = Path.Combine(Application.StartupPath, chaussure.image.Replace("./", "").Replace("/", "\\"));
-            pictureBox.Image = Image.FromFile(imagePath);
+            pictureBox.MouseClick += (s, e) =>
+            {
+                this.Hide();
+                Form2 form2 = new Form2(chaussure.Id);
+                form2.Show();
+            };
+
+            string imagePathChaussures = Path.Combine(Application.StartupPath, chaussure.image.Replace("./", "").Replace("/", "\\"));
+            pictureBox.Image = Image.FromFile(imagePathChaussures);
 
             Label labelNomChaussures = new Label
             {
@@ -82,7 +81,16 @@ namespace MagasinOzgun
             buttonAddToBag.MouseClick += (s, e) =>
             {
                 BagManager.AddToBag(chaussure.Id);
-                MessageBox.Show("Ajouté au panier");
+
+                if (BagManager.Bag.Contains(chaussure.Id))
+                {
+                    MessageBox.Show("Ajouté au panier");
+                }
+                else
+                {
+                    MessageBox.Show("Error");
+                }
+
             };
 
             panel.Controls.Add(pictureBox);
@@ -93,13 +101,6 @@ namespace MagasinOzgun
             flpChaussures.Controls.Add(panel);
             flpChaussures.FlowDirection = FlowDirection.LeftToRight;
             flpChaussures.WrapContents = true;
-
-            pictureBox.MouseClick += (s, e) =>
-            {
-                this.Hide();
-                Form2 form2 = new Form2(chaussure.Id, chaussure.chaussures, chaussure.image, chaussure.prix);
-                form2.Show();
-            };
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

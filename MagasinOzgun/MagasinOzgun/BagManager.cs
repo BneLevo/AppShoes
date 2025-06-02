@@ -15,9 +15,14 @@ namespace MagasinOzgun
             get { return bag; }
         }
 
-        public static void AddToBag(int itemId)
+        public static void AddToBag(int Id)
         {
-            bag.Add(itemId);
+            bag.Add(Id);
+        }
+
+        public static void ClearAShoe(int Id)
+        {
+            bag.Remove(Id);
         }
 
         public static void ClearBag()
