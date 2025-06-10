@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\magasinozgun\\panier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|solutionrelative:magasinozgun\\panier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|c:\\users\\levent.ozgn\\documents\\github\\applicationmagasin\\magasinozgun\\magasinozgun\\chaussures.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|solutionrelative:magasinozgun\\chaussures.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|c:\\users\\levent.ozgn\\documents\\github\\applicationmagasin\\magasinozgun\\magasinozgun\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\magasinozgun\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|solutionrelative:magasinozgun\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\magasinozgun\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|solutionrelative:magasinozgun\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\magasinozgun\\panier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|solutionrelative:magasinozgun\\panier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\magasinozgun\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|solutionrelative:magasinozgun\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\magasinozgun\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|solutionrelative:magasinozgun\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\magasinozgun\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|solutionrelative:magasinozgun\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|c:\\users\\levent.ozgn\\documents\\github\\applicationmagasin\\magasinozgun\\magasinozgun\\panier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|solutionrelative:magasinozgun\\panier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\magasinozgun\\panier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D1A01D0F-1F41-40C1-9F28-741A8A8BC3C8}|MagasinOzgun\\MagasinOzgun.csproj|solutionrelative:magasinozgun\\panier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,36 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\MagasinOzgun\\Form1.cs",
-              "RelativeDocumentMoniker": "MagasinOzgun\\Form1.cs",
-              "ToolTip": "C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\MagasinOzgun\\Form1.cs [Design]",
-              "RelativeToolTip": "MagasinOzgun\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T11:03:29.524Z",
-              "EditorCaption": " [Design]"
+              "DocumentIndex": 0,
+              "Title": "chaussures.json",
+              "DocumentMoniker": "C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\MagasinOzgun\\chaussures.json",
+              "RelativeDocumentMoniker": "MagasinOzgun\\chaussures.json",
+              "ToolTip": "C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\MagasinOzgun\\chaussures.json",
+              "RelativeToolTip": "MagasinOzgun\\chaussures.json",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-10T06:23:51.134Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\MagasinOzgun\\Form1.cs",
               "RelativeDocumentMoniker": "MagasinOzgun\\Form1.cs",
               "ToolTip": "C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\MagasinOzgun\\Form1.cs",
               "RelativeToolTip": "MagasinOzgun\\Form1.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAAGYAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwDQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T11:54:58.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\MagasinOzgun\\Form2.cs",
               "RelativeDocumentMoniker": "MagasinOzgun\\Form2.cs",
@@ -81,14 +86,14 @@
               "RelativeDocumentMoniker": "MagasinOzgun\\Form2.cs",
               "ToolTip": "C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\MagasinOzgun\\Form2.cs",
               "RelativeToolTip": "MagasinOzgun\\Form2.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAAAGwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T13:23:24.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Panier.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\MagasinOzgun\\Panier.cs",
               "RelativeDocumentMoniker": "MagasinOzgun\\Panier.cs",
@@ -100,16 +105,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Panier.cs",
               "DocumentMoniker": "C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\MagasinOzgun\\Panier.cs",
               "RelativeDocumentMoniker": "MagasinOzgun\\Panier.cs",
               "ToolTip": "C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\MagasinOzgun\\Panier.cs",
               "RelativeToolTip": "MagasinOzgun\\Panier.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAAAHQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T13:07:32.532Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\MagasinOzgun\\Form1.cs",
+              "RelativeDocumentMoniker": "MagasinOzgun\\Form1.cs",
+              "ToolTip": "C:\\Users\\LEVENT.OZGN\\Documents\\GitHub\\ApplicationMagasin\\MagasinOzgun\\MagasinOzgun\\Form1.cs [Design]",
+              "RelativeToolTip": "MagasinOzgun\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:03:29.524Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

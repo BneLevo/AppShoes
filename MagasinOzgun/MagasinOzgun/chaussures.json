@@ -8,58 +8,58 @@
   },
   {
     "id": 2,
-    "Chaussures": "Nike Air Force 1",
-    "image": "./img/imgShoes/NikeAirForce1_07.png",
-    "prix": 140,
+    "Chaussures": "Nike Air Jordan",
+    "image": "./img/imgShoes/1.png",
+    "prix": 250,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   },
   {
     "id": 3,
-    "Chaussures": "Nike Air Max",
-    "image": "./img/imgShoes/NikeAirForce1_07.png",
+    "Chaussures": "Nike Air Jordan Low",
+    "image": "./img/imgShoes/NikeDunkLow.png",
     "prix": 130,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   },
   {
     "id": 4,
     "Chaussures": "Nike Air Max",
-    "image": "./img/imgShoes/NikeAirForce1_07.png",
+    "image": "./img/imgShoes/2.png",
     "prix": 120,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   },
   {
     "id": 5,
-    "Chaussures": "Nike Air Max",
-    "image": "./img/imgShoes/NikeAirForce1_07.png",
-    "prix": 110,
+    "Chaussures": "Nike Luka",
+    "image": "./img/imgShoes/4.png",
+    "prix": 80,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   },
   {
     "id": 6,
-    "Chaussures": "Nike Air Max",
-    "image": "./img/imgShoes/NikeAirForce1_07.png",
+    "Chaussures": "Nike Air Jordan Green",
+    "image": "./img/imgShoes/5.png",
     "prix": 100,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   },
   {
     "id": 7,
-    "Chaussures": "Nike Air Max",
-    "image": "./img/imgShoes/NikeAirForce1_07.png",
-    "prix": 190,
+    "Chaussures": "Nike Spizike",
+    "image": "./img/imgShoes/6.png",
+    "prix": 1500,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   },
   {
     "id": 8,
-    "Chaussures": "Nike Air Max",
-    "image": "./img/imgShoes/NikeAirForce1_07.png",
-    "prix": 1710,
+    "Chaussures": "Nike Jumpman",
+    "image": "./img/imgShoes/7.png",
+    "prix": 190,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   },
   {
     "id": 9,
-    "Chaussures": "Nike Air Max",
-    "image": "./img/imgShoes/NikeAirForce1_07.png",
-    "prix": 1750,
+    "Chaussures": "Nike Air Jordan 1 mid",
+    "image": "./img/imgShoes/8.png",
+    "prix": 150,
     "taille": [ 33, 35, 36, 37, 38, 39, 44, 56 ]
   }
 ]
